@@ -1,4 +1,4 @@
-const Number = ({ value, onClick, classes }) => {
+const NumberKey = ({ value, onClick, classes }) => {
   /** TODO: What happens when a user clicks a number, what do we want to pass to our parent? */
   return (
     <div onClick={()=>onClick()}
@@ -9,4 +9,4 @@ const Number = ({ value, onClick, classes }) => {
   );
 };
 
-export default Number;
+export default NumberKey;
