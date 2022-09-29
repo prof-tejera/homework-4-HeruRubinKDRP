@@ -1,4 +1,5 @@
-import Calculator from "./components/Calculator";
+import Calculator from "./components/Calculator/Calculator";
+import { OPERATORS } from "./components/application-settings/app-settings";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         minHeight: "100vh",
       }}
     >
-      <Calculator />
+      <Calculator operators={OPERATORS} />
     </div>
   );
 }
